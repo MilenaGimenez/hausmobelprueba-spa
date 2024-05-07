@@ -4,6 +4,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MasVendidosComponent } from './pages/mas-vendidos/mas-vendidos.component';
+import { NovedadesComponent } from './pages/novedades/novedades.component';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,8 @@ import { MasVendidosComponent } from './pages/mas-vendidos/mas-vendidos.componen
             FooterComponent, 
             NavComponent, 
             HomeComponent,
-            MasVendidosComponent
+            MasVendidosComponent,
+            NovedadesComponent
           ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
